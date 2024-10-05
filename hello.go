@@ -7,5 +7,5 @@ type Person struct {
 }
 
 func (p *Person) Greet() string {
-	return fmt.Sprintf("Hello %s!!!!!", p.Name)
+	return fmt.Sprintf("Hello %s!!!", p.Name)
 }
